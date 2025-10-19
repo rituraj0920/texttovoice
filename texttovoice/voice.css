@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg ,#010758 ,#490d61);
+}
+.container{
+
+    min-height: 40vh;
+    margin: 2vh;
+    padding: 1vh;
+
+}
+.header{
+      margin-block: 2vh;
+      font-size: xx-large;
+      margin-bottom: 5vh;
+          text-transform: capitalize;
+          color: white;
+}
+.header span{
+    color: rgb(255, 72, 0);
+  
+
+    padding: 0.5vh;
+    border-bottom: 5px solid rgb(255, 123, 0);
+}
+
+.writehere{
+    width: 100%;
+    border-radius: 2vh;
+    background:#cf325c2f;
+    backdrop-filter: blur(13px);
+    text-transform: capitalize;
+    padding:1vh;
+    height: 30vh;
+    margin-bottom: 5vh;
+}
+
+.writehere textarea{
+   width: 100%;
+   background: none;
+   height: 100%;
+   border: none;
+   outline: none;
+   padding: 2vh;
+   overflow-wrap:break-word;
+   font-size: larger;
+   color: antiquewhite;
+   font-weight: 500;
+   text-transform: capitalize;
+}
+
+.writehere textarea::placeholder{
+    color: rgb(255, 251, 251);
+    font-size: larger;
+ 
+   
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 2vh;
+    width: 100%;
+
+}
+.languageSelecter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 2vh;
+      height: 5vh;
+}
+.footer select{
+   height: 5vh;
+   width: 70%;
+   border-radius: 2vh;
+   outline: none;
+   border: 1px solid black;
+   padding: 1vh;
+   background: rgb(202, 103, 172);
+   appearance: none;
+   font-size: larger;
+   text-align: center;
+}
+.footer button{
+   height: 5vh;
+   width: 30%;
+   border-radius: 2vh;
+   border: none;
+   outline: none;
+   background:rgb(229, 253, 9);
+   cursor: pointer;
+}
+
+@media (min-width:200px) and  (max-width :800px) {
+.header{
+
+      font-size: large;
+      margin-bottom: 3vh;
+}
+
+}
